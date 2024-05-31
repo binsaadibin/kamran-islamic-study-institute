@@ -1,0 +1,21 @@
+@import '../../../variables.scss'; // Correct path to variables.scss
+
+// body {
+//   font-family: $roboto-font-family; // Use Roboto font for the entire document
+//   background-color: $background-color; // Use background color variable
+// }
+
+.fatiha {
+  font-family: $cairo-font-family; // Use Cairo font for specific elements
+  font-size: 20px;
+  color: $white-color;
+  text-align: center;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px; // Use white color variable
+}
+
+// .anotherClass {
+//   font-family: $roboto-font-family; // Use Roboto font for another element
+//   color: $primary-color; // Use primary color variable
+// }

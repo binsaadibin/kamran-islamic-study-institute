@@ -1,0 +1,17 @@
+@import '../variables.scss';
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon{
+      color: $secondary-color;
+      font-size: 55px;
+      margin-right: 20px;
+    }
+    h5{
+      color: $secondary-color;
+      font-size: 40px;
+    }
+}

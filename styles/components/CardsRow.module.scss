@@ -1,0 +1,59 @@
+@import '../variables.scss';
+
+
+.cardContainer{
+    margin-top: 20px;
+}
+.customCard {
+    display: inline;
+    flex-direction: column;
+    padding-bottom: 0px;
+    animation-name: basic-rotation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:2;
+
+    @-webkit-keyframes basic-rotation {
+        0% { transform: rotate(0deg); }
+        50% { transform: rotate(360deg); }
+    }
+    @keyframes basic-rotation {
+        0% { transform: rotate(0deg); }
+        50% { transform: rotate(360deg); }
+    }
+
+
+    @media screen and (min-width:608px) {
+        display: flex;
+        flex-direction: row;
+       }
+       @media screen and (min-width:767px) {
+        display: flex;
+        flex-direction: row;
+       }
+}
+.image{
+   width: 200px !important;
+    object-fit: cover;
+    border-radius: 10px;
+
+    @media screen and (min-width:608px) {
+        width: 200px;
+        height: 180px;
+        object-fit: cover;
+       }
+       @media screen and (min-width:767px) {
+        width: 200px;
+        height: 180px;
+        object-fit: cover;
+       }
+}
+.title{
+    font-size: 20px;
+    text-align: justify;
+    color: $primary-color;
+}
+.description{
+    font-size: 17px;
+    text-align: justify;
+}

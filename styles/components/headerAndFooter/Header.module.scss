@@ -1,0 +1,173 @@
+@import '../../variables.scss';
+
+.header{
+position: sticky;
+top: 60px;
+z-index: 1000;
+background-color: $secondary-color;
+border-bottom: 4px solid $primary-color;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.logo{
+    width: 300px;
+    height: 70px !important;
+    margin-left: 10px;
+    color: $white-color;
+    background-color: red;
+}
+.headerMenu {
+    margin-right: 30px;
+    margin-left: 20px;
+    // border: 2px solid red;
+  
+    a {
+      text-decoration: none !important; // Remove underline from links
+      color: inherit; 
+    }
+  
+    li {
+      text-decoration: none;
+      color: $white-color;
+    font-weight: bold;
+  
+      &:hover {
+        color: $primary-color;
+      }
+
+      &:active {
+        color: $primary-color;
+      }
+      span{
+        font-family: $roboto-font-family;
+        color: $white-color;
+        margin-right: 15px;
+        font-weight:bold;
+        padding: 8px;
+  
+        &:hover {
+          color: $primary-color;
+        }
+  
+        &:active {
+          color: $primary-color;
+        }
+  
+        &:focus {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+  
+  .courses{
+    color: $white-color;
+    font-weight: bold;
+
+    &:hover{
+      color: $primary-color !important;
+    }
+
+
+    .courseSubPages{
+      // border: 1px solid $primary-color;
+      padding: 0px 0px !important;
+     background-color: transparent;
+      width: 300px;
+
+      li {
+        margin: 0px;
+        padding:8px;
+        width: 300px;
+        &:hover {
+          background-color:transparent;
+          color: $white-color;
+        }
+
+
+        .Quran_course{
+          border:1px solid $primary-color;
+          border-radius: 5px;
+          width: 100%;
+          padding: 10px;
+          background-color: $secondary-color;
+          color: $white-color;
+          font-size: 17px;
+          &:hover{
+            color: $primary-color;
+          }
+        }
+        .Quran_courses{
+          width: 285px;
+          border-radius: 5px;
+          padding: 10px;
+          background-color: $secondary-color;
+          color: $white-color;
+          font-size: 17px;
+          li{
+            border:1px solid $primary-color;
+            border-radius: 5px;
+            width: 100%;
+            padding: 10px;
+            background-color: $secondary-color;
+            color: $white-color;
+            font-size: 17px;
+            line-height: 20px;
+          }
+        }
+
+
+
+
+      }
+      
+    }
+  }
+
+
+
+  .download{
+    color: $white-color;
+
+
+    &:hover{
+      color: $primary-color;
+    }
+
+
+    ul{
+      padding:7px;
+      background-color: transparent;
+       width: 300px;
+       
+
+       li{
+        border:1px solid $primary-color;
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px;
+        background-color: $secondary-color;
+        color: $white-color;
+        font-size: 17px;
+        margin-top: 15px;
+       }
+    }
+  }
+
+  .register{
+    border: 2px  solid $primary-color;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    padding-left: 25px;
+    box-shadow: 10px 10px 0px $white-color;
+
+
+    &:hover{
+      background-color: $white-color;
+      color: $secondary-color !important;
+      box-shadow: 10px 10px 0px $primary-color;
+    }
+  }

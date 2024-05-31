@@ -1,0 +1,119 @@
+@import '../variables.scss';
+
+.sidebar {
+  width: 300px;
+  max-height: 85vh; /* Limiting the height to the viewport */
+  background-color: #f4f4f4;
+  padding: 30px 0px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  position: fixed;
+  right: 0; /* Position sidebar on the right */
+  overflow-y: auto; 
+  padding-bottom: 100px; /* Making the sidebar scrollable */
+  // display: none; /* Initially hidden */
+
+  @media screen and (min-width: 431px) {
+   
+  }
+
+  @media screen and (min-width: 767px) {
+    display: block;
+    padding: 30px 0px; /* Show the sidebar on screens larger than 767px */
+  }
+}
+
+
+.iconsssssssssss{
+  font-size: 50px;
+  color: $primary-color;
+}
+
+.card1 {
+  border: 2px solid $primary-color;
+  background: white;
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  h3 {
+    text-align: center;
+    background-color: $primary-color;
+    padding: 10px 0px;
+    color: $white-color;
+  }
+
+  .contentCard {
+    padding: 0px 15px;
+    margin: 0px 0px;
+
+    .steps {
+      padding: 18px 0px;
+      display:flex;
+      justify-content:space-between;
+      align-items: center;
+
+      .span1 {
+        background-color: $primary-color;
+        margin-right: 0px;
+        padding: 10px;
+        color: $white-color;
+        font-weight: 600;
+      }
+
+      .span2 {
+        color: $secondary-color;
+        font-weight: 500;/* Adjust icon size if needed */
+        margin-left: 10px;
+        .icon{
+          font-size: 50px;
+          color: $primary-color;
+        }
+      }
+    }
+    p{
+      border-bottom: 2px solid $secondary-color;
+      margin-top: -8px;
+      font-family: $lexend-font-family;
+      font-weight: 800 !important;
+    }
+  }
+
+}
+
+.card2 {
+  border: 2px solid $primary-color;
+  background: white;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon {
+    color: $primary-color;
+    font-size: 60px;
+    padding: 20px 0px;
+    cursor: pointer;
+  }
+
+  span {
+    color: $primary-color;
+    font-weight: 600;
+  }
+}

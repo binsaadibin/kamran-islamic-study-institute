@@ -1,0 +1,91 @@
+@use '../variables.scss' as *;
+.secondSectionImage{
+    height: auto;
+    width: 300px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.firstSection{
+    margin-top: 10px;
+    background-color: $white-color;
+    text-align: justify;
+    @media screen and (min-width:431px) {
+ 
+        }
+        @media screen and (min-width:767px) {
+        }
+
+        .secHeading{
+            margin: 15px 0px;
+        }
+        .mainCards{
+            margin: 40px 0px;
+        }
+}
+.secondSection{
+    background-color: $background-color;
+    @media screen and (min-width:431px) {
+
+ 
+    }
+    @media screen and (min-width:767px) {
+    }
+    .secondSectionImage{
+        height: auto;
+        width: 300px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+}
+
+
+.thirdSection{
+    @media screen and (min-width:431px) {
+
+ 
+    }
+    @media screen and (min-width:767px) {
+    }
+
+    .thirdSectionImage{
+        height: auto;
+        width: 300px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+}
+
+.fourthSection{
+    background-color: $background-color;
+    @media screen and (min-width:431px) {
+
+ 
+    }
+    @media screen and (min-width:767px) {
+    }
+
+    .thirdSectionImage{
+        height: auto;
+        width: 300px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+}
+
+.fifthSection{
+    background-color: $background-color;
+    @media screen and (min-width:431px) {
+
+ 
+    }
+    @media screen and (min-width:767px) {
+    }
+
+    .thirdSectionImage{
+        height: auto;
+        width: 300px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+}

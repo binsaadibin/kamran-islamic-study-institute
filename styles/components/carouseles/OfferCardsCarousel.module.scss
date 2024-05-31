@@ -1,0 +1,68 @@
+@import '../../variables.scss';
+
+
+.fourth_box_poster {
+    margin-top: -20px; /* Adjust margin as needed */
+  }
+  
+  .cardContainer {
+    padding: 0 20px;
+    margin-top: 30px; /* Adjust padding as needed */
+  }
+  
+  .card { /* Example border style, customize as desired */
+   border: none;
+   padding-top: 20px;
+
+    .imges{
+        width: 80px !important;
+        height: 80px !important;
+
+        @media screen and (min-width:431px) {
+          width: 100px;
+        height: 100px;
+        }
+        @media screen and (min-width:767px) {
+          width: 100px;
+          height: 100px;
+        
+    }
+  }
+
+    .title{
+        color: $primary-color;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+        font-family: $roboto-font-family;
+        @media screen and (min-width:431px) {
+          font-size: 17px;
+          font-weight: 600;
+ 
+        }
+        @media screen and (min-width:767px) {
+          font-size: 19px;
+          font-weight: 600;
+ 
+        }
+    }
+
+    h5{
+        font-size: 14px;
+        font-weight: 500;
+        color: $secondary-color;
+        text-align: center;
+
+        @media screen and (min-width:431px) {
+          font-size: 16px;
+          font-weight: 600;
+ 
+        }
+        @media screen and (min-width:767px) {
+          font-size: 17px;
+        font-weight: 500;
+        color: $secondary-color;
+        text-align: center;
+        }
+    }
+  }

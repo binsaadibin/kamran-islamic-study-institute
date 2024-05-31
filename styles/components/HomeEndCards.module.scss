@@ -1,0 +1,46 @@
+@import '../variables.scss';
+
+
+
+.fourth_box_poster {
+    background-color:$white-color;
+    background-position: center;
+    height: auto;
+    padding: 50px 0px;
+  }
+  
+ .card {
+    border: 3px solid $secondary-color;
+    box-shadow: -10px -10px 20px $secondary-color;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-top: 30px;
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    @media screen and (min-width:431px) {
+      margin-top: 40px;
+     }
+     @media screen and (min-width:767px) {
+      margin-top: 0px;
+     }
+
+  }
+  
+  .fourth_box_poster img {
+    width: 100px !important;
+    height: 100px !important;
+    margin-top: 30px;
+    border: 4px solid $secondary-color;
+    border-radius: 50%;
+  }
+  
+  .fourth_box_poster h5 {
+    font-size: 22px;
+    color: $secondary-color;
+    font-weight: bold;
+    text-align: center;
+    font-family: $roboto-font-family;
+  }
+  

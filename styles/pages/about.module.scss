@@ -1,0 +1,44 @@
+@use '../variables.scss' as *;
+
+.firstSection{
+  margin-top: 20px;
+
+}
+
+
+  .secondSection{
+    margin-top: 50px;
+
+    h2{
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 25px;
+        text-align: left;
+
+        @media screen and (min-width:431px) {
+         
+        }
+        @media screen and (min-width:767px) {
+        }
+    }
+  }
+
+  .fourthSection{
+    padding-top: 30px;
+    h2{
+      color: $primary-color;
+      text-align: center;
+      font-size: 22px;
+    }
+    div{
+      margin-top: 10px;
+    }
+  }
+
+  .fifthSection{
+    background-image: url('/imges/images.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+  }

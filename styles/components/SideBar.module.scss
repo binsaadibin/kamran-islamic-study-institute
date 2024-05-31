@@ -1,0 +1,99 @@
+@import '../variables.scss';
+
+.sidebar {
+  width: 300px;
+  max-height: 85vh; /* Limiting the height to the viewport */
+  background-color: #f4f4f4;
+  padding: 30px 10px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  position: fixed;
+  overflow-y: auto; /* Making the sidebar scrollable */
+}
+
+.card1 {
+  border: 2px solid $primary-color;
+  background: white;
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  h3 {
+    text-align: center;
+    background-color: $primary-color;
+    padding: 10px 0px;
+    color: $white-color;
+  }
+
+  .contentCard {
+    padding: 1px 15px;
+   margin: 20px 0px;
+
+    div {
+      border-bottom: 2px solid $secondary-color;
+      padding: 18px 0px;
+
+      .span1 {
+        background-color: $primary-color;
+        margin-right: 60px;
+        padding: 10px;
+        color: $white-color;
+        font-weight: 600;
+      }
+
+      .span2 {
+        color: $secondary-color;
+        font-weight: 500;
+      }
+    }
+  }
+
+  button {
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    color: $white-color;
+    border-radius: 5px;
+    border: 2px solid $secondary-color;
+    cursor: pointer;
+  }
+}
+
+.card2 {
+  border: 2px solid $primary-color;
+  background: white;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon {
+    color: $primary-color;
+    font-size: 60px;
+    padding: 20px 0px;
+    cursor: pointer;
+  }
+
+  span {
+    color: $primary-color;
+    font-weight: 600;
+  }
+}

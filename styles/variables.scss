@@ -1,0 +1,80 @@
+// Define font URLs
+$cairo-font-url: '/fonts/Cairo-Regular.ttf';
+$roboto-font-url: '/fonts/Roboto-Regular.ttf';
+$lexend-font-url: '/fonts/Lexend-Regular.ttf';
+
+// Define font families
+$cairo-font-family: 'Cairo', sans-serif;
+$roboto-font-family: 'Roboto', sans-serif;
+$lexend-font-family: 'Lexend', sans-serif; // Fixed font family name
+
+// Import external fonts (Google Fonts for Roboto)
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// Define colors
+$white-color:#F0F8FF;
+$background-color: #FAF3E0;
+$primary-color: #daa520;
+$secondary-color:#04041a;
+
+// Define @font-face rules
+@font-face {
+  font-family: 'Cairo';
+  src: url('#{$cairo-font-url}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('#{$roboto-font-url}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lexend'; // Fixed font family name
+  src: url('#{$lexend-font-url}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Define mixins for custom styles
+@mixin customH1Styles {
+  font-size: 25px;
+  font-family: $lexend-font-family;
+  letter-spacing: 2px;
+  word-spacing: -2px;
+  font-weight: 500;
+  text-align: center;
+  color: $primary-color !important;
+  
+  color: $secondary-color;
+  @media screen and (min-width: 431px) {
+      font-size: 30px;
+      text-align: center;
+  }
+  @media screen and (min-width: 767px) {
+      font-size: 45px;
+      text-align: center;
+      letter-spacing: 2px;
+      word-spacing: -2px;
+  }
+}
+@mixin customPeragraphStyles {
+  font-family: $lexend-font-family;
+  font-size:14px;
+  word-spacing: -2px;
+  font-weight:400 !important;
+  color: $secondary-color; 
+  text-align: justify;
+  @media screen and (min-width: 431px) {
+      font-size: 15px;
+  }
+  @media screen and (min-width: 767px) {
+  font-weight:700;
+  color: $secondary-color;
+  text-align:justify;
+  font-size: 17px;
+  }
+}

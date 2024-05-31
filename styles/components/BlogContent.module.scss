@@ -1,0 +1,105 @@
+@import '../variables.scss';
+
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .DateAndTime{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5px 10px;
+        line-height: 22px;
+        box-shadow: 2px 2px 5px $secondary-color;
+        margin-bottom: 40px;
+        .date{
+            font-size: 25px;
+            font-weight: 700;
+            color: $secondary-color;
+        }
+        .time{
+            font-weight: 700;
+            font-size: 14px;
+            font-weight: $lexend-font-family;
+        }
+    }
+    .subCard{
+        border: 1px  solid rgb(189, 175, 175); 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 0px 10px;
+
+        &:hover{
+            box-shadow: 5px 5px 20px rgb(189, 175, 175);;
+        }
+
+
+        @media screen and (min-width: 431px) {
+            padding: 0px 20px;
+        }
+      
+        @media screen and (min-width: 767px) {
+            padding: 0px 70px;
+        }
+
+        .smallHeading{
+            position: absolute;
+            top: -15px;
+            background-color: $primary-color;
+            padding: 2px 12px;
+            small{
+                font-size: 17px;
+                font-weight: 700;
+                color: $white-color;
+            }
+        }
+        .mainHeading{
+            margin-top: 25px;
+            color: $secondary-color;
+            h2{
+                text-align: center;
+            }
+        }
+        .detail{
+            justify-content: space-around;
+
+            span{
+                color: $secondary-color;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .firstImage{
+                width: 20px !important;
+                height: 20px !important;
+                border-radius: 50%;
+                margin: 0px 7px;
+            }
+            .secondImage{
+                width: 20px !important;
+                height: 20px !important;
+                margin-left: 10px;
+            }
+        }
+        .description{
+            p{
+                text-align: center;
+            }
+        }
+        .link{
+            margin-top: -5px;
+            margin-bottom: 15px;
+            a{
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+
+    }
+}

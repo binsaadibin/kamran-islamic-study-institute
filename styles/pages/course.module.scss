@@ -1,0 +1,16 @@
+@use '../variables.scss' as *;
+
+
+.course{
+ 
+    h2{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        color: $primary-color;
+
+    }
+    p{
+        text-align: center;
+    }
+}

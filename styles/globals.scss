@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+
+* {
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $white-color;
+}
+section{
+  padding:15px 30px;
+
+  @media screen and (min-width:431px) {
+    padding:20px 40px;
+  }
+  @media screen and (min-width:767px) {
+    padding:10px 50px;
+  }
+}
+
+h1{
+  @include customH1Styles;
+  // font-family:  $lexend-font-family
+}
+p{
+  @include  customPeragraphStyles;
+}

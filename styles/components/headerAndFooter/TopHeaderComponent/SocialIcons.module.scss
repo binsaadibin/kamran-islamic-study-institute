@@ -1,0 +1,27 @@
+@import '../../../variables.scss';
+
+.socialIcons {
+  text-align: right;
+  // height: 50px ;
+  //   width: 50px;
+    display: flex;
+    justify-content: end;
+
+  .socialIcon {
+    font-family: $cairo-font-family;
+    font-weight: 400;
+    height: 30px !important;
+    width: 30px !important;
+    margin-right: 10px;
+    color:$white-color;
+    // @media screen and (min-width: 500px) {
+    //     font-size: 25px;
+    //     margin-right: 10px;              
+    //   }
+    //   @media screen and (min-width:767px) {
+    //     font-size: 25px;
+    //     margin-right: 10px; 
+    // } 
+  }
+}
+

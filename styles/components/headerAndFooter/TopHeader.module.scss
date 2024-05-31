@@ -1,0 +1,20 @@
+@use '../../variables.scss' as *;
+
+.topHeader {
+    background-color: $primary-color;
+    padding: 10px 30px;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    @media screen and (min-width:720px) {
+        height: 60px;
+      }
+
+      .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+}

@@ -1,0 +1,14 @@
+@use '../../../variables.scss' as *;
+
+
+
+.dateAndTime{
+    text-align: left;
+    font-family:  $cairo-font-family;
+    font-size: 20px;
+    font-weight: 400;
+    color: $white-color;
+    padding: 0px;
+    margin: 0px; 
+
+}
