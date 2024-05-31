@@ -53,7 +53,7 @@ const QuranReading = () => {
                     <Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} />
                   </span>
                   <p>
-                    This course provides a comprehensive approach to Quranic reading, incorporating Tajweed rules, memorization techniques, and comprehension exercises to enhance the student's ability to recite and understand the Quranic text.
+                    This course provides a comprehensive approach to Quranic reading, incorporating Tajweed rules, memorization techniques, and comprehension exercises to enhance the student&apos;s ability to recite and understand the Quranic text.
                   </p>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const QuranReading = () => {
               <div className={styles.users}>
                 <h2>02. Who can benefit from Quran Reading Course?</h2>
                 <div>
-                  <p>The Quran Reading course is suitable for individuals of all ages and backgrounds who wish to improve their Quranic reading skills. Whether you're a beginner or an advanced learner, this course offers personalized instruction to meet your learning needs.</p>
+                  <p>The Quran Reading course is suitable for individuals of all ages and backgrounds who wish to improve their Quranic reading skills. Whether you&apos;re a beginner or an advanced learner, this course offers personalized instruction to meet your learning needs.</p>
                 </div>
               </div>
 

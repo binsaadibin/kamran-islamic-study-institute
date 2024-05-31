@@ -6,6 +6,10 @@ function Tasmia() {
   const [currentAyah, setCurrentAyah] = useState(0);
   const [error, setError] = useState(null);
 
+  const handleNextAyah = () => {
+    setCurrentAyah(prevAyah => (prevAyah + 1) % surahData.length);
+  };
+
   useEffect(() => {
     // Fetch data from a Quranic API (replace with a real API endpoint)
     fetch('https://api.alquran.cloud/v1/surah/1/ar.alafasy')
@@ -35,11 +39,7 @@ function Tasmia() {
     }, 2000);
 
     return () => clearTimeout(timer);
-  }, [currentAyah, surahData]);
-
-  const handleNextAyah = () => {
-    setCurrentAyah(prevAyah => (prevAyah + 1) % surahData.length);
-  };
+  }, [currentAyah, surahData, handleNextAyah]); // Include handleNextAyah in the dependency array
 
   return (
     <div>

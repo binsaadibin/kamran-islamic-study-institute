@@ -44,7 +44,7 @@ const SeniorLevelCourse = () => {
                     <Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} />
                   </span>
                   <p>
-                    The Senior Level Course is designed for older students and adults who have a basic understanding of Islam and seek to deepen their knowledge and practice of the faith. It covers advanced topics in Islamic theology, jurisprudence, spirituality, and ethics, providing a comprehensive understanding of Islam's teachings and principles.
+                    The Senior Level Course is designed for older students and adults who have a basic understanding of Islam and seek to deepen their knowledge and practice of the faith. It covers advanced topics in Islamic theology, jurisprudence, spirituality, and ethics, providing a comprehensive understanding of Islam&apos;s teachings and principles.
                   </p>
                 </div>
 
@@ -68,7 +68,7 @@ const SeniorLevelCourse = () => {
               <div className={styles.reason}>
                 <h2>03. Why Senior Level Course?</h2>
                 <ol>
-                  <li>The Senior Level Course offers a comprehensive and in-depth exploration of advanced topics in Islamic theology, law, spirituality, and ethics, providing students with a nuanced understanding of Islam's teachings and principles.</li>
+                  <li>The Senior Level Course offers a comprehensive and in-depth exploration of advanced topics in Islamic theology, law, spirituality, and ethics, providing students with a nuanced understanding of Islam&apos;s teachings and principles.</li>
                   <li>Intellectual Engagement: The course encourages critical thinking, intellectual inquiry, and scholarly engagement with Islamic texts, traditions, and contemporary issues.</li>
                   <li>Spiritual Growth: Through advanced studies in Islamic spirituality and ethics, the course aims to foster spiritual growth, moral development, and a deeper connection with Allah (SWT) among students.</li>
                   <li>Practical Application: The knowledge gained from the Senior Level Course can be applied to addressing contemporary challenges, promoting social justice, and contributing positively to society.</li>

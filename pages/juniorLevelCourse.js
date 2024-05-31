@@ -68,9 +68,9 @@ const JuniorLevelCourse = () => {
                 <h2>03. Why Junior Level Course?</h2>
                 <ol>
                   <li>The Junior Level Course offers a comprehensive introduction to Islam tailored to the cognitive and emotional development of young learners, fostering their curiosity, creativity, and critical thinking skills.</li>
-                  <li>Engaging Curriculum: The course features interactive lessons, stories, games, and activities designed to capture children's interest and make learning enjoyable and memorable.</li>
-                  <li>Moral and Spiritual Development: Through age-appropriate teachings and examples, the course aims to nurture children's moral character, empathy, compassion, and sense of responsibility as Muslims.</li>
-                  <li>Family and Community Involvement: The course encourages family and community involvement, providing opportunities for parents, teachers, and peers to support children's learning and growth together.</li>
+                  <li>Engaging Curriculum: The course features interactive lessons, stories, games, and activities designed to capture children&apos;s interest and make learning enjoyable and memorable.</li>
+                  <li>Moral and Spiritual Development: Through age-appropriate teachings and examples, the course aims to nurture children&apos;s moral character, empathy, compassion, and sense of responsibility as Muslims.</li>
+                  <li>Family and Community Involvement: The course encourages family and community involvement, providing opportunities for parents, teachers, and peers to support children&apos;s learning and growth together.</li>
                 </ol>
               </div>
 
@@ -78,7 +78,7 @@ const JuniorLevelCourse = () => {
                 <h2>04. What will you Learn in Junior Level Course?</h2>
                 <ul>
                   <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Basic beliefs and articles of faith in Islam, including the Oneness of Allah (Tawheed), Prophethood, and the Hereafter.</li>
-                  <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Stories of Prophets and Messengers from Islamic history, highlighting their virtues, teachings, and relevance to children's lives.</li>
+                  <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Stories of Prophets and Messengers from Islamic history, highlighting their virtues, teachings, and relevance to children&apos;s lives.</li>
                   <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Introduction to Islamic rituals and practices, such as Salah (prayer), fasting, charity, and acts of kindness and gratitude.</li>
                   <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Moral values and character development based on Islamic teachings, including honesty, kindness, generosity, and respect for others.</li>
                 </ul>
@@ -87,7 +87,7 @@ const JuniorLevelCourse = () => {
               <div className={styles.objectives}>
                 <h2>05. Objectives of the Course</h2>
                 <p><span><Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> To introduce young learners to the basic beliefs, teachings, and practices of Islam in an engaging and age-appropriate manner.</p>
-                <p><span><Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> To nurture a love for Islam, a sense of identity as Muslims, and a moral and spiritual foundation for children's development.</p>
+                <p><span><Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> To nurture a love for Islam, a sense of identity as Muslims, and a moral and spiritual foundation for children&apos;s development.</p>
                 <p><span><Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> To provide interactive and enjoyable learning experiences that inspire curiosity, creativity, and critical thinking among young learners.</p>
               </div>
 

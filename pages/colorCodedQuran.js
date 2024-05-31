@@ -5,6 +5,7 @@ import Layout from '../components/headerAndFooter/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import MainHeadingOfPages from '@/components/MainHeadingOfPages';
+import Image from 'next/image';
 
 const chapters = [
     { id: 1, name: 'COLOR CODED QURAN JUZ 1', link: '/chapter1', image: '/imges/Saudi-Formet.webp' },

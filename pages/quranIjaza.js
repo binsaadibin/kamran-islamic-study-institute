@@ -44,8 +44,8 @@ const QuranIjaza = () => {
                     <Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} />
                   </span>
                   <p>
-                    The Quran Ijaza course is a traditional method of Quranic recitation certification, wherein students receive authorization (Ijaza) from qualified scholars to transmit the Quranic text with proper pronunciation and Tajweed.
-                  </p>
+  The Quran Ijaza course is a traditional method of Quranic recitation certification, wherein students receive authorization (Ijaza) from qualified scholars to transmit the Quranic text with proper pronunciation and Tajweed.
+</p>
                 </div>
 
                 <div className={styles.list}>
@@ -53,8 +53,9 @@ const QuranIjaza = () => {
                     <Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} />
                   </span>
                   <p>
-                    This course aims to preserve the oral transmission of the Quran and uphold the standards of Quranic recitation established by classical scholars. It involves rigorous training, assessment, and certification under the supervision of authorized Quranic teachers.
-                  </p>
+  This course aims to preserve the oral transmission of the Quran and uphold the standards of Quranic recitation established by classical scholars. It involves rigorous training, assessment, and certification under the supervision of authorized Quranic teachers.
+</p>
+
                 </div>
               </div>
 
@@ -68,11 +69,11 @@ const QuranIjaza = () => {
               <div className={styles.reason}>
                 <h2>03. Why Quran Ijaza Course?</h2>
                 <ol>
-                  <li>The Quran Ijaza course provides formal recognition of one's Quranic recitation skills and authorization to transmit the Quranic text according to the classical tradition.</li>
+                  <li>The Quran Ijaza course provides formal recognition of one&apos;s Quranic recitation skills and authorization to transmit the Quranic text according to the classical tradition.</li>
                   <li>Authentic Certification: Our course is taught by qualified scholars who possess valid Ijazas themselves, ensuring authenticity and adherence to traditional recitation methods.</li>
                   <li>Rigorous Training: Students undergo rigorous training in Quranic recitation, Tajweed rules, and memorization under the guidance of experienced instructors.</li>
                   <li>Preservation of Tradition: By participating in the Quran Ijaza course, students contribute to the preservation of the oral transmission of the Quran and the legacy of classical Quranic scholarship.</li>
-                  <li>Spiritual Fulfillment: Attaining Ijaza in Quranic recitation is a spiritually enriching experience that deepens one's connection with the Quran and the prophetic tradition.</li>
+                  <li>Spiritual Fulfillment: Attaining Ijaza in Quranic recitation is a spiritually enriching experience that deepens one&apos;s connection with the Quran and the prophetic tradition.</li>
                 </ol>
               </div>
 
@@ -80,7 +81,7 @@ const QuranIjaza = () => {
                 <h2>04. What will you Learn in Quran Ijaza Course?</h2>
                 <ul>
                   <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Advanced Tajweed Rules: Mastery of advanced Tajweed rules and principles of Quranic recitation.</li>
-                  <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Quranic Memorization: Memorization and retention of Quranic text, including selected chapters or the entire Quran, depending on the student's proficiency level.</li>
+                  <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Quranic Memorization: Memorization and retention of Quranic text, including selected chapters or the entire Quran, depending on the student&apos;s proficiency level.</li>
                   <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Recitation Practice: Extensive practice in Quranic recitation, with emphasis on proper pronunciation, rhythm, and melodious rendering.</li>
                   <li><span><Image width={50} height={50} src="/imges/next.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> Oral Transmission: Learning the methodology of oral transmission (Tajweed) and the etiquettes of receiving and granting Ijaza.</li>
                 </ul>

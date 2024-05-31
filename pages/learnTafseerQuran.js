@@ -59,7 +59,7 @@ const LearnTafseerQuran = () => {
               <div className={styles.users}>
                 <h2>02. Who can benefit from Learn Tafseer Quran Course?</h2>
                 <div>
-                  <p>The Learn Tafseer Quran course is suitable for individuals who have a basic understanding of Arabic and Quranic studies. Whether you're a student of Islamic sciences, a scholar, or a curious learner, this course offers valuable insights into the interpretation of the Quran.</p>
+                  <p>The Learn Tafseer Quran course is suitable for individuals who have a basic understanding of Arabic and Quranic studies. Whether you&apos;re a student of Islamic sciences, a scholar, or a curious learner, this course offers valuable insights into the interpretation of the Quran.</p>
                 </div>
               </div>
 
@@ -87,7 +87,7 @@ const LearnTafseerQuran = () => {
 
               <div className={styles.objectives}>
                 <h2>05. Objectives of the Course</h2>
-                <p><span><Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> To deepen students' understanding of the Quranic text through critical analysis and interpretation.</p>
+                <p><span><Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> To deepen students&apos; understanding of the Quranic text through critical analysis and interpretation.</p>
                 <p><span><Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> To equip students with the skills and methodologies needed to engage in independent Tafseer studies.</p>
                 <p><span><Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} /></span> To foster a deeper spiritual connection with the Quran and its teachings.</p>
               </div>

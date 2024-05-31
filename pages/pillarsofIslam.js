@@ -4,8 +4,6 @@ import Layout from '../components/headerAndFooter/Layout';
 import CourseseHeading from '@/components/CourseseHeading';
 import Image from 'next/image';
 
-
-
 const sidebarContent = [
   {
     type: 'features',
@@ -23,7 +21,6 @@ const sidebarContent = [
     text: 'If you have any further query then you can contact our helpline',
   },
 ];
-
 
 const PillarsOfIslam = () => {
   return (
@@ -44,7 +41,7 @@ const PillarsOfIslam = () => {
                     <Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} />
                   </span>
                   <p>
-                    The Pillars of Islam refer to the fundamental acts of worship and belief that form the foundation of a Muslim's faith and practice. They include the declaration of faith (Shahada), ritual prayer (Salah), almsgiving (Zakat), fasting during the month of Ramadan (Sawm), and pilgrimage to Mecca (Hajj).
+                    The Pillars of Islam refer to the fundamental acts of worship and belief that form the foundation of a Muslim&apos;s faith and practice. They include the declaration of faith (Shahada), ritual prayer (Salah), almsgiving (Zakat), fasting during the month of Ramadan (Sawm), and pilgrimage to Mecca (Hajj).
                   </p>
                 </div>
 
@@ -53,7 +50,7 @@ const PillarsOfIslam = () => {
                     <Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} />
                   </span>
                   <p>
-                    These pillars serve as the framework for a Muslim's spiritual life, guiding their actions, beliefs, and interactions with Allah (SWT) and fellow human beings.
+                    These pillars serve as the framework for a Muslim&apos;s spiritual life, guiding their actions, beliefs, and interactions with Allah (SWT) and fellow human beings.
                   </p>
                 </div>
               </div>

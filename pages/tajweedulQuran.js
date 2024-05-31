@@ -54,7 +54,7 @@ const TajweedUlQuran = () => {
             <div className={styles.users}>
               <h2>02. Who can benefit from Tajweed ul Quran?</h2>
               <div>
-                <p>Tajweed ul Quran is beneficial for anyone who wants to improve their Quranic recitation skills. Whether you're a beginner or an experienced reciter, this course provides valuable insights and techniques to enhance your recitation and deepen your understanding of the Quran.</p>
+                <p>Tajweed ul Quran is beneficial for anyone who wants to improve their Quranic recitation skills. Whether you&apos;re a beginner or an experienced reciter, this course provides valuable insights and techniques to enhance your recitation and deepen your understanding of the Quran.</p>
               </div>
             </div>
             <div className={styles.reason}>
@@ -64,7 +64,7 @@ const TajweedUlQuran = () => {
                 <li>Learning Enhancers: Our course employs unique teaching methods such as 3D pictures, audio and video aids, practical activities, and games to reinforce the rules of Tajweed and make learning engaging and effective.</li>
                 <li>Certificate: Upon successful completion of the course, students receive an e-certificate signed by supervisors and course instructors, validating their proficiency in Tajweed and Quranic recitation.</li>
                 <li>Variety of Resources: Our course offers a variety of Qaidas, including Noorani Qaida in English, Noorani Qaida in Urdu, and Rehmani Qaida, catering to diverse learning preferences and backgrounds.</li>
-                <li>Duration of the Course: The course duration varies depending on the student's level and abilities, typically taking two to three months to complete. With 16 lessons and 31 pages, students progress at their own pace, ensuring thorough understanding and mastery of Tajweed principles.</li>
+                <li>Duration of the Course: The course duration varies depending on the student&apos;s level and abilities, typically taking two to three months to complete. With 16 lessons and 31 pages, students progress at their own pace, ensuring thorough understanding and mastery of Tajweed principles.</li>
               </ol>
             </div>
             <div className={styles.detail}>

@@ -4,7 +4,6 @@ import Layout from '../components/headerAndFooter/Layout';
 import CourseseHeading from '@/components/CourseseHeading';
 import Image from 'next/image';
 
-
 const sidebarContent = [
   {
     type: 'features',
@@ -51,7 +50,7 @@ const ArabicLanguage = () => {
                     <Image width={50} height={50} src="/imges/527-5271894_transparent-clipart-check-mark-transparent-background-golden-check.png" alt="Placeholder Image" className={`img-fluid ${styles.image}`} />
                   </span>
                   <p>
-                    This course aims to develop students' reading, writing, listening, and speaking skills in Arabic, enabling them to communicate effectively and engage with Arabic literature, media, and culture.
+                    This course aims to develop students&apos; reading, writing, listening, and speaking skills in Arabic, enabling them to communicate effectively and engage with Arabic literature, media, and culture.
                   </p>
                 </div>
               </div>
