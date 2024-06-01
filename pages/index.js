@@ -68,13 +68,13 @@ const Home = () => (
       </section>
 
       {/* Fifth Section: Our Courses Carousel */}
-      <section className={styles.fifthSection}>
+      <div className={styles.fifthSection}>
         <h1>Our Courses</h1>
         <center>
           <Image src="/imges/underline-blue-300x28.png" alt="underline-blue-300x28.png" width={300} height={30} className={`${styles.thirdSectionImage}`} />
         </center>
         <HomeEndCarousel />
-      </section>
+      </div>
     </div>
   </Layout>
 );

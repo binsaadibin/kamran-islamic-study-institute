@@ -57,7 +57,7 @@ const Header = () => {
         <div className="container-fluid">
           <Link href="/">
             <span className="">
-              <Image src="/icons/icon.svg.svg" alt="Logo" width={50} height={50} layout="responsive" className={styles.logo} />
+              <Image src="/icons/mainLogo.png" alt="Logo" width={50} height={50} layout="responsive" className={styles.logo} />
             </span>
           </Link>
           <button

@@ -29,14 +29,19 @@ const TeacherCard = () => {
       imageUrl: '/imges/muslim-men.svg',
       altText: 'Teacher Image 4',
     },
+    {
+      name: 'ASMA HASSAN',
+      imageUrl: '/imges/muslim-men.svg',
+      altText: 'Teacher Image 4',
+    },
     // Add more teachers as needed
   ];
 
   return (
-    <div className={`container ${styles.teacherContainer}`}>
+    <div className={`container-fluid ${styles.teacherContainer}`}>
       <div className={`row  justify-content-space-evenly ${styles.teacherRow}`}>
         {teachersData.map((teacher, index) => (
-          <div key={index} className={`col-12 col-sm-5 col-md-3 ${styles.teacherColumn}`}>
+          <div key={index} className={`col-6 col-sm-4 col-md-2 ${styles.teacherColumn}`}>
             <div className={`card ${styles.card}`}>
               <div className="text-center">
                 <Image src={teacher.imageUrl} alt={teacher.altText} width={50} height={50} className={styles.teacherCardsImage} layout="responsive" />
