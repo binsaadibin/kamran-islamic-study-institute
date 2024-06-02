@@ -2,15 +2,38 @@
 
 
 
+// .container {
+//     display: flex;
+//     flex-direction:column;
+//     @media screen and (min-width:608px) {
+           
+//     }
+//     @media screen and (min-width:767px) {
+//         display: flex;
+//         flex-direction: row;
+//     }
+// }
+
 .container {
     display: flex;
-}
+    flex-direction: column-reverse; /* Reverse columns for small screens */
+  
+    @media screen and (min-width: 767px) {
+      flex-direction: row; /* Set direction to row for large screens */
+    }
+  }
 
 .mainContent {
-    margin-left: 320px; /* Adjust according to the width of the sidebar */
+    margin-left:0px; /* Adjust according to the width of the sidebar */
     padding: 20px;
     flex-grow: 1;
     background-color: #fff;
+    @media screen and (min-width:608px) {
+           
+    }
+    @media screen and (min-width:767px) {
+        margin-left: 320px;
+    }
 
     // Main Content Heading
     .CourseseHeading {

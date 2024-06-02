@@ -9,7 +9,6 @@ import MainHeadingOfPages from '@/components/MainHeadingOfPages';
 const About = () => (
   <Layout>
     <div>
-      <>hhhhhhhhhhhh</>
       <MainHeadingOfPages heading='About us' backgroundImage="/imges/about.jpg" />
       <section className={styles.firstSection}>
         <p className={styles.text}>

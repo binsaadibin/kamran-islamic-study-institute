@@ -1,14 +1,28 @@
 @use '../variables.scss' as *;
 .container {
-  display: flex;
-  flex-direction: row-reverse; /* Reverse the direction to position the sidebar on the right */
+   display: inline;
+  @media screen and (min-width: 431px) {
+   
+  }
+
+  @media screen and (min-width: 767px) {
+    display: flex;
+  }
 }
 
 .mainContent {
-  margin-right: 320px; /* Adjust according to the width of the sidebar */
+  margin-right:0px; /* Adjust according to the width of the sidebar */
   padding: 20px;
   flex-grow: 1;
   background-color: #fff;
+
+  @media screen and (min-width: 431px) {
+   
+  }
+
+  @media screen and (min-width: 767px) {
+    margin-right: 320px;
+  }
 }
 
 
@@ -37,209 +51,3 @@
 
 
 
-
-
-.container {
-  display: flex;
-  flex-direction: row-reverse; /* Reverse the direction to position the sidebar on the right */
-}
-
-.mainContent {
-  margin-right: 320px; /* Adjust according to the width of the sidebar */
-  padding: 20px;
-  flex-grow: 1;
-  background-color: #fff;
-
-  .CourseseHeading {
-    border: 2px solid red;
-    margin-bottom: 30px;
-  }
-}
-
-// // Add styles for the rest of the content as necessary
-
-
-// .courseIntro {
-//     border: 1px solid $secondary-color;
-//     padding: 20px;
-//     border-radius: 5px;
-
-//     h2 {
-//         font-size: 22px;
-//     }
-
-//     .list {
-//         display: flex;
-//         justify-content: center;
-
-//         .image {
-//             width: 25px;
-//             height: 25px;
-//             margin-right: 40px;
-//             margin-top: -4px;
-//         }
-
-//         p {
-//             text-align: justify;
-//             color: $secondary-color;
-//             font-weight: 600;
-//             font-size: 16px;
-//         }
-//     }
-// }
-
-// .users {
-//     border: 3px solid $primary-color;
-//     border-radius: 5px;
-//     margin-top: 20px;
-
-//     h2 {
-//         color: $white-color;
-//         background-color: $primary-color;
-//         padding: 15px 20px;
-//         font-size: 22px;
-//     }
-
-//     div {
-//         padding: 10px 20px;
-
-//         p {
-//             font-size: 16px;
-//             font-weight: 600;
-//             .image {
-//                 width: 25px;
-//                 height: 25px;
-//                 margin-right: 0px;
-//                 margin-top: -4px;
-//             }
-//         }
-//     }
-// }
-
-// .reason {
-//     border: 1px solid $secondary-color;
-//     border-radius: 5px;
-//     margin-top: 20px;
-//     padding: 20px;
-//     background-color: rgb(245, 224, 199);
-
-//     h2 {
-//         font-size: 22px;
-//     }
-
-//     ol {
-//         li {
-//             text-align: justify;
-//             color: $secondary-color;
-//             font-weight: 600;
-//             font-size: 16px;
-//             font-family: $lexend-font-family;
-//             margin-top: 20px;
-
-//             p {
-//                 margin-top: 10px;
-//                 line-height: 5px;
-//                 font-weight: 600;
-//                 font-size: 16px;
-//                 color: rgb(79, 79, 187);
-
-//                 .image {
-//                     width: 25px;
-//                     height: 25px;
-//                     margin-right: 10px;
-//                     margin-top: -4px;
-//                 }
-//             }
-//         }
-//     }
-// }
-
-// .detail {
-//     border: 1px solid $secondary-color;
-//     border-radius: 5px;
-//     margin-top: 20px;
-//     padding: 20px;
-//     background-color: rgb(245, 245, 249);
-
-//     h2 {
-//         font-size: 22px;
-//         margin-bottom: 20px;
-//     }
-
-//     ul {
-//         list-style-type: none;
-//         padding: 0;
-
-//         li {
-//             text-decoration: none;
-//             text-align: justify;
-//             color: $secondary-color;
-//             font-weight: 600;
-//             font-size: 16px;
-//             font-family: $lexend-font-family;
-//             margin-top: 20px;
-
-//             .image {
-//                 width: 40px;
-//                 height: 20px;
-//                 margin-right: 0px;
-//                 margin-top: -4px;
-//             }
-//         }
-//     }
-// }
-
-// .objectives {
-//     border: 1px solid $secondary-color;
-//     border-radius: 5px;
-//     margin-top: 20px;
-//     padding: 20px;
-
-//     h2 {
-//         font-size: 22px;
-//         margin-bottom: 20px;
-//     }
-
-//     p {
-//         text-align: justify;
-//         color: $secondary-color;
-//         font-weight: 600;
-//         font-size: 16px;
-
-//         .image {
-//             width: 25px;
-//             height: 25px;
-//             margin-right: 10px;
-//             margin-top: -4px;
-//         }
-//     }
-// }
-
-// .levels {
-//     border: 3px solid $primary-color;
-//     border-radius: 5px;
-//     margin-top: 20px;
-
-//     h2 {
-//         color: $white-color;
-//         background-color: $primary-color;
-//         padding: 15px 20px;
-//         font-size: 22px;
-//     }
-
-//     div {
-//         padding: 10px 20px;
-
-//         p {
-//             font-size: 16px;
-//             font-weight: 600;
-
-//             .image {
-//                 width: 25px;
-//                 height: 25px;
-//                 margin-right: 0px;
-//                 margin-top: -4px;
-//             }
-//         }
-//     }
-// }

@@ -29,7 +29,9 @@ const NooraniQaida = () => {
     <div>
       <Layout>
         <div className={styles.container}>
-        <Sidebar sidebarContent={sidebarContent} />
+        <div className={styles.sidebar}>
+          <Sidebar sidebarContent={sidebarContent} />
+          </div>
           <main className={styles.mainContent}>
             <div className={styles.CourseseHeading}>
               <CourseseHeading text="Noorani Qaida"/>

@@ -3,6 +3,7 @@ import styles from '@/styles/components/headerAndFooter/Header.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { FaBars } from "react-icons/fa6";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -61,7 +62,7 @@ const Header = () => {
             </span>
           </Link>
           <button
-            className="navbar-toggler"
+            className={`navbar-toggler ${styles.handleNavToggle}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -70,7 +71,7 @@ const Header = () => {
             aria-label="Toggle navigation"
             onClick={handleNavToggle}
           >
-            <span className="navbar-toggler-icon"></span>
+            <FaBars className={styles. FaBars} />
           </button>
           <div className={`collapse navbar-collapse justify-content-end ${isNavOpen ? 'show' : ''}`} onMouseLeave={handleDropdownClose}>
             <ul className={`navbar-nav ${styles.headerMenu}`}>

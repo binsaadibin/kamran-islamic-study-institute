@@ -601,7 +601,7 @@ const NooraniQaida = () => {
             </div>      
             </div>
           </main>
-          <BlogSidebar />
+          <div><BlogSidebar /></div>
         </div>
       </Layout>
     </div>

@@ -10,10 +10,11 @@ const Course = () => (
     <div className={styles.course}>
       {/* Pass the background image URL as a prop */}
       <MainHeadingOfPages heading='our courses' backgroundImage="/imges/course.webp" />
+      <section>
       <h2>POPULAR COURSES</h2>
-      
       <h1>Our Arabic & Islamic Courses</h1>
       <p>Explore the richness of Arabic language and Islamic teachings with our comprehensive and engaging courses tailored for a profound understanding.</p>
+      </section>
       <div>
       <MainCourses/>
       </div>

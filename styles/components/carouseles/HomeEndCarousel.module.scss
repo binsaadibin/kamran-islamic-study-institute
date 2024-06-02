@@ -3,11 +3,18 @@
 /* HomeEndCarousel.module.scss */
 
 .fourth_box_poster {
-    margin-top: 10px; /* Adjust margin as needed */
+    margin-top: 10px;
+    margin-bottom: 30px; /* Adjust margin as needed */
   }
   
   .cardContainer {
-    padding: 0 10px; /* Adjust padding as needed */
+    padding: 0 5px;
+    @media screen and (min-width:431px) {
+      padding: 0 10px;  
+    }
+    @media screen and (min-width:767px) {
+  
+    }
   }
   
   .card {

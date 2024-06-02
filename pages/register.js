@@ -164,10 +164,10 @@ const Register = () => {
           {/* Main Heading */}
           <h2 className={styles.mainHeading}>Register to Learn Quran with us</h2>
           {/* First Section */}
-          <div className="row">
+          <div className="row mb-4">
   <div className="col-md-2">
     {/* Picture */}
-    <Image src="/imges/learn-quran-03.svg" alt="Placeholder Image" width={50} height={50} className={`img-fluid ${styles.image}`} />
+    <Image src="/imges/learn-quran-01.svg" alt="Placeholder Image" width={50} height={50} className={`img-fluid ${styles.image}`} />
   </div>
   <div className="col-md-9">
     {/* Heading and Description */}
@@ -179,7 +179,7 @@ const Register = () => {
           <div className="row mb-4">
             <div className="col-md-2">
               {/* Picture */}
-              <Image src="/imges/learn-quran-03.svg" alt="Placeholder Image" width={50} height={50} className={`img-fluid ${styles.image}`} />
+              <Image src="/imges/learn-quran-02.svg" alt="Placeholder Image" width={50} height={50} className={`img-fluid ${styles.image}`} />
             </div>
             <div className="col-md-9">
               {/* Heading and Description */}
@@ -188,7 +188,7 @@ const Register = () => {
             </div>
           </div>
           {/* Third Section */}
-          <div className="row">
+          <div className="row mb-4">
             <div className="col-md-2">
               {/* Picture */}
               <Image src="/imges/learn-quran-03.svg" alt="Placeholder Image" width={50} height={50} className={`img-fluid ${styles.image}`} />

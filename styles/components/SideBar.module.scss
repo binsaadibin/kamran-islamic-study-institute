@@ -2,13 +2,25 @@
 
 .sidebar {
   width: 300px;
-  max-height: 85vh; /* Limiting the height to the viewport */
+  height: 100%; /* Full height */
   background-color: #f4f4f4;
   padding: 30px 10px;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-  position: fixed;
-  overflow-y: auto; /* Making the sidebar scrollable */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+
+  @media screen and (min-width: 767px) {
+    position: fixed;
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-bottom: 0; /* Remove bottom margin on larger screens */
+    height: 100vh; /* Full viewport height */
+  }
+
+  @media screen and (max-width: 766px) {
+    width: 100%;
+    max-height:100%; /* Maximum height for smaller screens */
+  }
 }
+
+
 
 .card1 {
   border: 2px solid $primary-color;
@@ -18,20 +30,34 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 
+
   h3 {
     text-align: center;
     background-color: $primary-color;
     padding: 10px 0px;
     color: $white-color;
+    font-size: 30px;
+    @media screen and (min-width: 767px) {
+      font-size: 30px;
+    }
   }
 
   .contentCard {
     padding: 1px 15px;
    margin: 20px 0px;
+   @media screen and (min-width: 767px) {
+
+   }
 
     div {
       border-bottom: 2px solid $secondary-color;
       padding: 18px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media screen and (min-width: 767px) {
+        
+      }
 
       .span1 {
         background-color: $primary-color;
@@ -39,11 +65,19 @@
         padding: 10px;
         color: $white-color;
         font-weight: 600;
+        font-size: 20px;
+        @media screen and (min-width: 767px) {
+           font-size: 16px;
+        }
       }
 
       .span2 {
         color: $secondary-color;
         font-weight: 500;
+        font-size: 20px;
+        @media screen and (min-width: 767px) {
+          font-size: 16px;
+        }
       }
     }
   }
@@ -58,17 +92,24 @@
     border-radius: 5px;
     border: 2px solid $secondary-color;
     cursor: pointer;
+
+    @media screen and (min-width: 767px) {
+
+    }
   }
 }
 
 .card2 {
   border: 2px solid $primary-color;
   background: white;
-  margin-bottom: 10px;
   margin-top: 20px;
   padding: 15px;
+  padding-bottom: 0px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  @media screen and (min-width: 767px) {
+    margin-bottom: 170px;
+  }
 
   p {
     font-size: 16px;

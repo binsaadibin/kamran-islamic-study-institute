@@ -6,21 +6,55 @@ top: 60px;
 z-index: 1000;
 background-color: $secondary-color;
 border-bottom: 4px solid $primary-color;
-padding: 10px;
+padding: 0px;
 display: flex;
 flex-direction: column;
 justify-content: center;
+
+@media screen and (min-width:431px) {
+  padding: 10px;
+
+}
+@media screen and (min-width:767px) {
+ 
+}
+}
+
+.handleNavToggle{
+  border: 1px solid $primary-color;
+}
+.FaBars{
+  color: $primary-color;
+  font-size: 20px;
+  margin-bottom: 3px;
 }
 .logo{
-    width: 300px;
-    height: 70px !important;
-    margin-left: 10px;
+    width: 270px !important;
+    height: 60px !important;
     color: $white-color;
+    margin-left: 0px;
+
+    @media screen and (min-width:431px) {
+      margin-left: 5px;
+      width: 300px;
+      height: 70px !important;
+    }
+    @media screen and (min-width:767px) {
+      margin-left: 10px;
+      width: 300px !important;
+      height: 70px !important;
+    }
 }
 .headerMenu {
-    margin-right: 30px;
-    margin-left: 20px;
-    // border: 2px solid red;
+    margin-right: 10px;
+    margin-left: 0px;
+    @media screen and (min-width:431px) {
+
+    }
+    @media screen and (min-width:767px) {
+      margin-right: 30px;
+      margin-left: 20px;
+    }
   
     a {
       text-decoration: none !important; // Remove underline from links
@@ -87,13 +121,21 @@ justify-content: center;
 
 
         .Quran_course{
-          border:1px solid $primary-color;
           border-radius: 5px;
           width: 100%;
           padding: 10px;
           background-color: $secondary-color;
           color: $white-color;
           font-size: 17px;
+          border: none;
+
+
+          @media screen and (min-width:431px) {
+
+          }
+          @media screen and (min-width:767px) {
+            border:1px solid $primary-color;
+          }
           &:hover{
             color: $primary-color;
           }
@@ -106,7 +148,7 @@ justify-content: center;
           color: $white-color;
           font-size: 17px;
           li{
-            border:1px solid $primary-color;
+            border:none;
             border-radius: 5px;
             width: 100%;
             padding: 10px;
@@ -114,6 +156,13 @@ justify-content: center;
             color: $white-color;
             font-size: 17px;
             line-height: 20px;
+
+            @media screen and (min-width:431px) {
+
+            }
+            @media screen and (min-width:767px) {
+              border:1px solid $primary-color;
+            }
           }
         }
 
@@ -143,7 +192,7 @@ justify-content: center;
        
 
        li{
-        border:1px solid $primary-color;
+        border:none;
         border-radius: 5px;
         width: 100%;
         padding: 10px;
@@ -151,6 +200,13 @@ justify-content: center;
         color: $white-color;
         font-size: 17px;
         margin-top: 15px;
+
+        @media screen and (min-width:431px) {
+
+        }
+        @media screen and (min-width:767px) {
+          border:1px solid $primary-color;
+        }
        }
     }
   }
@@ -162,6 +218,15 @@ justify-content: center;
     text-align: center;
     padding-left: 25px;
     box-shadow: 10px 10px 0px $white-color;
+    margin-bottom: 20px;
+
+
+    @media screen and (min-width:431px) {
+      margin-bottom: 10px;
+    }
+    @media screen and (min-width:767px) {
+      margin-bottom: 0px;
+    }
 
 
     &:hover{

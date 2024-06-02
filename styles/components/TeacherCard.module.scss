@@ -35,34 +35,43 @@
       .card {
         border: 2px solid $white-color;
         background-color: transparent !important;
-        padding: 10px;
+        padding: 0px;
         background-image: url('/imges/th (6).jfif');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 30px;
-
-        // @media screen and (min-width:431px) {
-        //    margin-top: 20px;
-        //   }
-        //   @media screen and (min-width:767px) {
-        //     // font-size: 22px;
-        //     // display: inline;
-        //   }
         &:hover {
            box-shadow: -10px -10px 20px $primary-color;
           }
         p {
           color: $white-color;
           text-align: center;
-          font-size: 14px;
-          font-weight:900;
+          font-size: 12px;
+          font-weight:700;
+          
+
+          @media screen and (min-width:431px) {
+            font-size: 14px;
+            font-weight:900;
+          }
+          @media screen and (min-width:767px) {
+            
+          }
         }
 
         .teacherCardsImage {
-          margin-top: 40px;
-          width: 70% !important;
-          height: 70% !important;
+          margin-top: 30px;
+          width: 60% !important;
+          height: 60% !important;
+          @media screen and (min-width:431px) {
+            margin-top: 40px;
+            width: 70% !important;
+            height: 70% !important;
+          }
+          @media screen and (min-width:767px) {
+            
+          }
         }
       }
     }

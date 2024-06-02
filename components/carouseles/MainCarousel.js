@@ -1,5 +1,6 @@
-import React from 'react';
+import React from 'react'; // Import React only once
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from '@/styles/components/carouseles/MainCarousel.module.scss';
 
 const CarouselContent = [
@@ -10,6 +11,7 @@ const CarouselContent = [
     subtitle: 'BIN SAADI ONLINE QURAN ACADEMY',
     description: 'When faced with overwhelming challenges, take a step back and reflect on the positive aspects of your life instead.',
     buttonText: 'Get Admission now',
+    link: '/register', // Add link here
   },
   {
     imageSrc: '/imges/Is-Ruqyah-with-unclear-words-permitted_.jpg',
@@ -18,6 +20,7 @@ const CarouselContent = [
     subtitle: 'BIN SAADI ONLINE QURAN ACADEMY',
     description: 'We facilitate easy Quran learning for everyone. View our packages for more information.',
     buttonText: 'View Our Packages',
+    link: '/payment', // Add link here
   },
   {
     imageSrc: '/imges/slider_005_1200x.webp',
@@ -26,6 +29,7 @@ const CarouselContent = [
     subtitle: 'BIN SAADI ONLINE QURAN ACADEMY',
     description: 'The finest among you is the individual who learns the Holy Quran and imparts its knowledge to others.',
     buttonText: 'Contact Us',
+    link: '/https://wa.me/+923170547465', // Add link here
   },
   {
     imageSrc: '/imges/AdobeStock_332447389-1200x400.webp',
@@ -34,6 +38,7 @@ const CarouselContent = [
     subtitle: 'BIN SAADI ONLINE QURAN ACADEMY',
     description: 'Stay connected with Bin Saadi and gain the privilege of learning and sharing that knowledge with others.',
     buttonText: 'Feel free to ask.',
+    link: 'https://wa.me/+923170547465', // Add link here
   },
 ];
 
@@ -56,19 +61,17 @@ const MainCarousel = () => {
                 <h5 className={styles.subtitle}>{item.subtitle}</h5>
                 <h1 className={styles.title}>{item.title}</h1>
                 <p className={styles.description}>{item.description}</p>
-                <button className={`btn ${styles.carouselButton}`}>{item.buttonText}</button>
+                <Link href={item.link} passHref>
+                  <button className={`btn ${styles.carouselButton}`}>{item.buttonText}</button>
+                </Link>
               </div>
             </div>
           </div>
         ))}
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        {/* <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span> */}
       </button>
       <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        {/* <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span> */}
       </button>
     </div>
   );
