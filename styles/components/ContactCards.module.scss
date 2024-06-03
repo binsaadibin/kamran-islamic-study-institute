@@ -2,21 +2,47 @@
 
 .firstRow{
 
-    margin-top: 30px;
+     margin-top: 0px;
+    @media screen and (min-width:431px) {
+        font-size: 10px;
+    }
+    @media screen and (min-width:767px) {
+       margin-top: 30px;
+    }
     .icon{
-       font-size: 25px;
+       font-size: 20px;
        color: $primary-color;
+       @media screen and (min-width:431px) {
+        font-size: 30px;
+    }
+    @media screen and (min-width:767px) {
+        font-size: 25px;
+    }
     }
     .heading{
        color: $primary-color;
-       font-size: 35px;
+       font-size: 25px;
        font-weight: 700;
-       margin-left: 20px;
+    //    margin-left: 20px;
+       margin: -20px 0px -20px 20px;
+       @media screen and (min-width:431px) {
+        font-size: 30px;
+    }
+    @media screen and (min-width:767px) {
+        font-size: 35px;
+    }
     }
 }
 .secondRow{
-    margin-top:80px;
-    margin-bottom: 40px; 
+    margin-top:30px;
+    margin-bottom: 0px; 
+    @media screen and (min-width:431px) {
+      
+    }
+    @media screen and (min-width:767px) {
+        margin-top:80px;
+        margin-bottom: 40px; 
+    }
 
     .card_body{
         display: flex;
@@ -24,6 +50,7 @@
         align-items: center;
         flex-direction: column;
         position: relative;
+      
 
         
 
@@ -38,7 +65,14 @@
         position: relative;
          background-color: $secondary-color;
          width: 6.25rem;
+    height: 5.875rem;
+    @media screen and (min-width:431px) {
+         
+    }
+    @media screen and (min-width:767px) {
+        width: 6.25rem;
     height: 6.875rem;
+    }
             .icon{
                 font-size: 40px;
                 color: $white-color;
@@ -48,9 +82,6 @@
           margin-top: -50px;
           font-size: 23px;
         }
-        // .card_tex{
-           
-        // }
     }
    
 }
