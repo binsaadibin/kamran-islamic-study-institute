@@ -1,19 +1,5 @@
 @use '../variables.scss' as *;
 
-
-
-// .container {
-//     display: flex;
-//     flex-direction:column;
-//     @media screen and (min-width:608px) {
-           
-//     }
-//     @media screen and (min-width:767px) {
-//         display: flex;
-//         flex-direction: row;
-//     }
-// }
-
 .container {
     display: flex;
     flex-direction: column-reverse; /* Reverse columns for small screens */
@@ -25,7 +11,7 @@
 
 .mainContent {
     margin-left:0px; /* Adjust according to the width of the sidebar */
-    padding: 20px;
+    padding: 10px;
     flex-grow: 1;
     background-color: #fff;
     @media screen and (min-width:608px) {
@@ -33,6 +19,7 @@
     }
     @media screen and (min-width:767px) {
         margin-left: 320px;
+        padding: 20px;
     }
 
     // Main Content Heading
@@ -48,8 +35,13 @@
     padding: 20px;
     border-radius: 5px;
 
+    @media screen and (min-width:767px) {
+        padding: 20px;
+    }
+
     h2 {
         font-size: 22px;
+        text-align: left;
     }
 
     .list {
@@ -57,10 +49,16 @@
         justify-content: center;
 
         .image {
-            width: 25px;
-            height: 25px;
-            margin-right: 40px;
+            width: 20px;
+            height: 20px;
+            margin-right: 25px;
             margin-top: -4px;
+
+            @media screen and (min-width:767px) {
+                width: 25px;
+                height: 25px;
+                margin-right: 40px;
+            }
         }
 
         p {
@@ -104,8 +102,12 @@
     border: 1px solid $secondary-color;
     border-radius: 5px;
     margin-top: 20px;
-    padding: 20px;
+    padding: 20px 15px;
     background-color: rgb(245, 224, 199);
+
+    @media screen and (min-width:767px) {
+        padding: 20px;
+    }
 
     h2 {
         font-size: 22px;
@@ -119,31 +121,26 @@
             font-size: 16px;
             font-family: $lexend-font-family;
             margin-top: 20px;
+            margin-left: -15px;
 
-            p {
-                margin-top: 10px;
-                line-height: 5px;
-                font-weight: 600;
-                font-size: 16px;
-                color: rgb(79, 79, 187);
-
-                .image {
-                    width: 25px;
-                    height: 25px;
-                    margin-right: 10px;
-                    margin-top: -4px;
-                }
+            @media screen and (min-width:767px) {
+                margin-left: 0px;
+            }
             }
         }
     }
-}
+
 
 .detail {
     border: 1px solid $secondary-color;
     border-radius: 5px;
     margin-top: 20px;
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(245, 245, 249);
+
+    @media screen and (min-width:767px) {
+        padding: 20px;
+    }
 
     h2 {
         font-size: 22px;
@@ -164,10 +161,15 @@
             margin-top: 20px;
 
             .image {
-                width: 40px;
+                width: 25px;
                 height: 20px;
-                margin-right: 0px;
+                margin-left: -10px;
                 margin-top: -4px;
+
+                @media screen and (min-width:767px) {
+                    width: 40px;
+                height: 20px;
+                }
             }
         }
     }
@@ -177,7 +179,11 @@
     border: 1px solid $secondary-color;
     border-radius: 5px;
     margin-top: 20px;
-    padding: 20px;
+    padding: 15px;
+
+    @media screen and (min-width:767px) {
+        padding: 20px;
+    }
 
     h2 {
         font-size: 22px;
@@ -191,10 +197,16 @@
         font-size: 16px;
 
         .image {
-            width: 25px;
-            height: 25px;
-            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
             margin-top: -4px;
+
+            @media screen and (min-width:767px) {
+                width: 25px;
+                height: 25px;
+                margin-right: 10px;
+            }
         }
     }
 }

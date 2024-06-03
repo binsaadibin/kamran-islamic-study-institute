@@ -10,6 +10,14 @@
 
 body {
   background-color: $white-color;
+  overflow-y: hidden;
+
+  @media screen and (min-width:431px) {
+
+  }
+  @media screen and (min-width:767px) {
+    overflow-y: auto;
+  }
 }
 section{
   padding:15px 20px;

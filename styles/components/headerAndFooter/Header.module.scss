@@ -2,7 +2,7 @@
 
 .header{
 position: sticky;
-top: 60px;
+top: 75px;
 z-index: 1000;
 background-color: $secondary-color;
 border-bottom: 4px solid $primary-color;
@@ -16,7 +16,8 @@ justify-content: center;
 
 }
 @media screen and (min-width:767px) {
- 
+  position: sticky;
+  top: 60px;
 }
 }
 
