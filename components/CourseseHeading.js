@@ -1,13 +1,13 @@
-import React from 'react'
-import styles from '@/styles/components/CourseseHeading.module.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook } from '@fortawesome/free-solid-svg-icons'; // Corrected icon import
+import React from 'react';
+import styles from '@/styles/components/CourseseHeading.module.scss';
+import { FaBook } from 'react-icons/fa'; // Importing the book icon from react-icons
 
-export default function CourseseHeading({text}) {
+export default function CourseseHeading({ text }) {
   return (
     <div className={styles.heading}>
-            <FontAwesomeIcon icon={faBook} className={styles.icon} />
-              <h5>{text}</h5>
+      <FaBook className={styles.icon} /> {/* Using FaBook icon from react-icons */}
+      <h5>{text}</h5>
     </div>
-  )
+  );
 }
+

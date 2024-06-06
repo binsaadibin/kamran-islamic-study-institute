@@ -22,7 +22,7 @@
 }
 
 
-.iconsssssssssss{
+.icons{
   font-size: 50px;
   color: $primary-color;
 }
@@ -65,7 +65,7 @@
         font-weight: 500;/* Adjust icon size if needed */
         margin-left: 10px;
         .icon{
-          font-size: 50px;
+          font-size: 50px !important;
           color: $primary-color;
         }
       }
@@ -106,9 +106,9 @@
 
   .icon {
     color: $primary-color;
-    font-size: 60px;
-    padding: 20px 0px;
+    font-size: 60px !important;
     cursor: pointer;
+    margin: 10px 0px;
   }
 
   span {

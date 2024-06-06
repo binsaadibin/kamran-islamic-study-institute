@@ -1,8 +1,7 @@
 import styles from '@/styles/pages/blog.module.scss';
 import Layout from '../components/headerAndFooter/Layout';
 import BlogSidebar from '@/components/BlogSidebar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBlog } from '@fortawesome/free-solid-svg-icons';
+import { FaBlog } from 'react-icons/fa';
 import BlogContent from '@/components/BlogContent';
 
 
@@ -1383,7 +1382,7 @@ const NooraniQaida = () => {
         <div className={styles.container}>
           <main className={styles.mainContent}>
             <div className={styles.CourseseHeading}>
-            <FontAwesomeIcon icon={faBlog} className={styles.icon} />
+            <FaBlog className={styles.icon} />
             <h5>Blog</h5>
              </div>
              <div className={styles.MainContentArea}>
