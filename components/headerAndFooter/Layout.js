@@ -1,15 +1,16 @@
-// components/Layout.js
 import React from 'react';
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
 import TopHeader from './TopHeader';
-// import layoutStyles from '../styles/Layout.module.scss'; // Import local CSS Module for Layout component
+import Image from 'next/image'; // Import the Image component
 
 const Layout = ({ children }) => (
   <>
     <Head>
-      <title>BINSAADI ONLIN QURAN ACADEMY</title>
+      {/* Load the SVG logo as a favicon */}
+      <link rel="shortcut icon" type="image/svg+xml" href="/icons/kamran institute for Islamic study logo.pdf (1).svg"/>
+      <title>Kamran Institute for Islamic Study</title>
     </Head>
     <TopHeader/>
     <Header/>
@@ -21,10 +22,3 @@ const Layout = ({ children }) => (
 );
 
 export default Layout;
-
-
-
-
-
-
-
