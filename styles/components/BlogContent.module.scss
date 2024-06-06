@@ -11,21 +11,40 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 5px 10px;
+        padding: 3px 8px;
         line-height: 22px;
         box-shadow: 2px 2px 5px $secondary-color;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
+        @media screen and (min-width:550px) {
+            margin-bottom: 30px;
+            padding: 5px 10px;
+          }
+          @media screen and (min-width:767px) {
+            margin-bottom: 40px;
+          }
         .date{
-            font-size: 25px;
+            font-size: 20px;
             font-weight: 700;
             color: $secondary-color;
+            @media screen and (min-width:767px) {
+                font-size: 25px;
+            }
         }
         .time{
             font-weight: 700;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: $lexend-font-family;
+
+            @media screen and (min-width:550px) {
+                font-size: 14px;
+            }
+            @media screen and (min-width:767px) {
+                font-size: 14px;
+            }
         }
     }
+
+
     .subCard{
         border: 1px  solid rgb(189, 175, 175); 
         width: 100%;
@@ -35,18 +54,8 @@
         align-items: center;
         position: relative;
         padding: 0px 10px;
-
         &:hover{
             box-shadow: 5px 5px 20px rgb(189, 175, 175);;
-        }
-
-
-        @media screen and (min-width: 431px) {
-            padding: 0px 20px;
-        }
-      
-        @media screen and (min-width: 767px) {
-            padding: 0px 70px;
         }
 
         .smallHeading{
@@ -55,9 +64,12 @@
             background-color: $primary-color;
             padding: 2px 12px;
             small{
-                font-size: 17px;
+                font-size: 14px;
                 font-weight: 700;
                 color: $white-color;
+                @media screen and (min-width:550px) {
+                    font-size: 14px;
+                }
             }
         }
         .mainHeading{
@@ -65,40 +77,79 @@
             color: $secondary-color;
             h2{
                 text-align: center;
+                font-size: 23px;
+                @media screen and (min-width:550px) {
+                    font-size: 25px;
+                }
             }
         }
         .detail{
             justify-content: space-around;
-
             span{
                 color: $secondary-color;
-                font-size: 15px;
+                font-size: 13px;
                 font-weight: bold;
+                @media screen and (min-width:550px) {
+                 font-size: 15px;
+                }
+                @media screen and (min-width:767px) {
+      
+                }
             }
             .firstImage{
                 width: 20px !important;
                 height: 20px !important;
                 border-radius: 50%;
                 margin: 0px 7px;
+                @media screen and (min-width:550px) {
+
+                }
+                @media screen and (min-width:767px) {
+      
+                }
             }
             .secondImage{
                 width: 20px !important;
                 height: 20px !important;
                 margin-left: 10px;
+                @media screen and (min-width:550px) {
+
+                }
+                @media screen and (min-width:767px) {
+      
+                }
             }
         }
         .description{
             p{
                 text-align: center;
+                @media screen and (min-width:550px) {
+
+                }
+                @media screen and (min-width:767px) {
+      
+                }
             }
         }
         .link{
             margin-top: -5px;
             margin-bottom: 15px;
+            @media screen and (min-width:550px) {
+
+            }
+            @media screen and (min-width:767px) {
+  
+            }
             a{
                 text-decoration: none;
                 font-size: 15px;
                 font-weight: 600;
+                @media screen and (min-width:550px) {
+
+                }
+                @media screen and (min-width:767px) {
+      
+                }
             }
         }
 

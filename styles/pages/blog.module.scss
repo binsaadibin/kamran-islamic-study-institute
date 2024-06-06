@@ -12,16 +12,17 @@
 
 .mainContent {
   margin-right:0px; /* Adjust according to the width of the sidebar */
-  padding: 20px;
+  padding: 0px;
   flex-grow: 1;
   background-color: #fff;
 
   @media screen and (min-width: 431px) {
-   
+    padding: 10px;
   }
 
   @media screen and (min-width: 767px) {
     margin-right: 320px;
+    padding: 20px;
   }
 }
 
@@ -34,13 +35,27 @@
 
   .icon{
     color: $secondary-color;
-    font-size: 55px;
-    margin-right: 20px;
+    font-size: 40px;
+    margin-right: 10px;
+    @media screen and (min-width:550px) {
+      font-size: 50px;
+      margin-right: 20px;
+    }
+    @media screen and (min-width:767px) {
+      font-size: 55px;
+      margin-right: 20px;
+    }
   }
   h5{
     color: $secondary-color;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
+    @media screen and (min-width:550px) {
+      font-size: 45px;
+    }
+    @media screen and (min-width:767px) {
+      font-size: 50px;
+    }
   }
 }
 
