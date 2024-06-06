@@ -8,7 +8,7 @@ const CarouselContent = [
     imageSrc: '/imges/6xdbgt.jpg',
     altText: 'how-to-spiritually-prepare-for-motherhood-banner-1.png',
     title: 'Online Quran Classes',
-    subtitle: 'BIN SAADI ONLINE QURAN ACADEMY',
+    subtitle: 'KAMRAN INSTITUTE FOR ISLAMIC STUDY',
     description: 'When faced with overwhelming challenges, take a step back and reflect on the positive aspects of your life instead.',
     buttonText: 'Get Admission now',
     link: '/register', // Add link here
@@ -17,7 +17,7 @@ const CarouselContent = [
     imageSrc: '/imges/Is-Ruqyah-with-unclear-words-permitted_.jpg',
     altText: 'Is-Ruqyah-with-unclear-words-permitted_.jpg',
     title: 'Expert Tutors',
-    subtitle: 'BIN SAADI ONLINE QURAN ACADEMY',
+    subtitle: 'KAMRAN INSTITUTE FOR ISLAMIC STUDY',
     description: 'We facilitate easy Quran learning for everyone. View our packages for more information.',
     buttonText: 'View Our Packages',
     link: '/payment', // Add link here
@@ -26,7 +26,7 @@ const CarouselContent = [
     imageSrc: '/imges/slider_005_1200x.webp',
     altText: 'how-to-spiritually-prepare-for-motherhood-banner-1.png',
     title: 'Learn and Teach Quran',
-    subtitle: 'BIN SAADI ONLINE QURAN ACADEMY',
+    subtitle: 'KAMRAN INSTITUTE FOR ISLAMIC STUDY',
     description: 'The finest among you is the individual who learns the Holy Quran and imparts its knowledge to others.',
     buttonText: 'Contact Us',
     link: '/https://wa.me/+923170547465', // Add link here
@@ -35,7 +35,7 @@ const CarouselContent = [
     imageSrc: '/imges/AdobeStock_332447389-1200x400.webp',
     altText: 'how-to-spiritually-prepare-for-motherhood-banner-1.png',
     title: 'We Offer The best',
-    subtitle: 'BIN SAADI ONLINE QURAN ACADEMY',
+    subtitle: 'KAMRAN INSTITUTE FOR ISLAMIC STUDY',
     description: 'Stay connected with Bin Saadi and gain the privilege of learning and sharing that knowledge with others.',
     buttonText: 'Feel free to ask.',
     link: 'https://wa.me/+923170547465', // Add link here
