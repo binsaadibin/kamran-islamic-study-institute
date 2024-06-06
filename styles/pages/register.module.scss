@@ -115,6 +115,19 @@
     }
 }
 
+.alertContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .alertButton{
+        border:none;
+        background: transparent;
+        span{
+            font-size: 50px;
+        }
+    }
+}
+
 
 .detail{
 

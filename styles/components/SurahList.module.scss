@@ -1,0 +1,119 @@
+@import '../variables.scss';
+
+.surahs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.surahItem {
+    border: 1px solid rgb(156, 144, 144);
+    padding: 0px !important;
+    margin-bottom: 10px;
+    height: 73px;
+    padding-top: 4px !important;
+    cursor: pointer;
+
+    .surahDetail {
+        padding-bottom: 5px;
+        padding-top: 5px;
+
+        .numberColumn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 15px;
+        }
+
+        .numberColumn div {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(to right, $secondary-color, #434343);
+            color: white;
+            text-align: center;
+            line-height: 30px; /* Align text vertically */
+            border-radius: 5px;
+            font-size: 25px;
+            margin-top: -20px;
+            display: flex; /* Align text horizontally and vertically */
+            justify-content: center;
+            align-items: center;
+            transform: rotate(45deg);
+            padding: 10px;
+            @media screen and (min-width: 767px) {
+                margin-bottom: 0px;
+                margin-top: 0px;
+                width: 40px;
+                height: 40px;
+            }
+
+            p {
+                color: $white-color;
+                transform: rotate(-45deg);
+                margin: 0; /* Remove any default margin */
+                line-height: 1; /* Adjust line height */
+            }
+        }
+
+        .detailColumn {
+            .row {
+                justify-content: space-between; // Ensure space between columns
+            }
+
+            .firstDetail {
+                line-height: 15px;
+                padding: 5px 10px;
+
+                h5 {
+                    font-size: 17px;
+                    font-weight: 600;
+                    font-family: $lexend-font-family;
+                    text-align: left;
+                }
+
+                p {
+                    text-align: left;
+                    font-size: 14px !important;
+                }
+            }
+
+            .secondDetail {
+                line-height: 10px;
+                padding: 5px 10px;
+
+                p {
+                    text-align: right;
+                    font-size: 14px !important;
+                    font-family: $cairo-font-family;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        background: linear-gradient(to right, $secondary-color, #434343);
+
+        .numberColumn {
+            div {
+                background: linear-gradient(to right, $primary-color, #434343);
+            }
+        }
+
+        .detailColumn {
+            .firstDetail {
+                h5 {
+                    color: $primary-color;
+                }
+                p {
+                    color: $primary-color;
+                }
+            }
+
+            .secondDetail {
+                p {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

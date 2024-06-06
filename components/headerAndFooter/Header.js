@@ -182,6 +182,12 @@ const Header = () => {
                   Download
                 </span>
                 <ul className={`dropdown-menu ${styles.downloadSubPages} ${activeDropdown === 'download' ? 'show' : ''}`}>
+                <li>
+                    <Link href="/quranAudio" passHref>
+                      <span>Complete Quran Audio</span>
+                    </Link>
+                  </li>
+                 
                   <li>
                     <Link href="/nooraniQaidaInUrdu" passHref>
                       <span>Noorani Qaida In Urdu</span>

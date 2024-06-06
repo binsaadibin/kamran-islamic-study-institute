@@ -2,7 +2,7 @@ import React from 'react';
 import PdfViewer from '../components/PdfViewer';
 
 const chapter32 = () => {
-    const pdfUrl = '/PdfFiles/Color-coded-32.pdf';
+    const pdfUrl = '/PdfFiles/Color-coded-23.pdf';
 
     return (
         <div>

@@ -1,6 +1,4 @@
 import styles from '@/styles/pages/colorCodedQuran.module.scss'
-
-
 import Layout from '../components/headerAndFooter/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
