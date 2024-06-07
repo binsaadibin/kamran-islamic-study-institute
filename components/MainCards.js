@@ -34,7 +34,7 @@ const MainCards = () => {
     <div className={`container-fluid ${styles.cardContainer}`}>
       <div className={`row ${styles.cardRow}`}>
         {cardsDetail.map((item, index) => (
-          <div key={index} className={`col-sm-6 col-md-3 ${styles.column}`}>
+          <div key={index} className={`col-sm-12 col-md-6 col-xl-3 ${styles.column}`}>
             <div className={`${styles.card} card`}>
               <center>
                 <Image

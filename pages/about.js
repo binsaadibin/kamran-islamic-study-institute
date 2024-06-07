@@ -12,7 +12,7 @@ const About = () => (
       <MainHeadingOfPages heading='About us' backgroundImage="/imges/about.jpg" />
       <section className={styles.firstSection}>
         <p className={styles.text}>
-          Welcome to our Online Madrasa, a Quran teaching organization providing online Quran classes worldwide. As a leading online Quran academy in the West for the past 12 years, we have designed special courses for both kids and elders. Our team comprises certified and experienced teachers, both male and female. <br />
+          Welcome to Kamran Institute For Islamic Study, a Quran teaching organization providing online Quran classes worldwide. As a leading online Quran academy in the West for the past 12 years, we have designed special courses for both kids and elders. Our team comprises certified and experienced teachers, both male and female. <br />
 
           Our vision is to offer the best opportunity for learning the Quran online, equipped with the latest technology, catering to people of all ages around the world. Our motivation stems from the realization that Muslims in Western or non-Muslim countries often lack access to mosques or Quran teaching institutes. <br />
 

@@ -2,8 +2,7 @@ import styles from '@/styles/pages/download.module.scss';
 import Layout from '../components/headerAndFooter/Layout';
 
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FaDownload } from "react-icons/fa";
 import MainHeadingOfPages from '@/components/MainHeadingOfPages';
 import Image from 'next/image';
 
@@ -72,7 +71,7 @@ const ColorCodedQuran = () => (
                                 <p className="card-text">{book.description}</p>
                                <div  className={styles.link}>
                                <Link href={book.link} passHref className={styles.myLink} >
-                                        <FontAwesomeIcon icon={faDownload} className={styles.icon} />
+                               <FaDownload className={styles.icon} />
                                         <span> Download</span>
                                 </Link>
                                </div>

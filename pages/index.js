@@ -19,11 +19,11 @@ const Home = () => (
       {/* First Section: Welcome Message and Main Cards */}
       <section className={styles.firstSection}>
         <div>
-          <h1 className={styles.secHeading}>Bin Saadi Online Quran Academy</h1>
+          <h1 className={styles.secHeading}>Kamran Institute For Islamic Study</h1>
           <p className={styles.secParagraph}>
-            Bin Saadi Online Quran Academy stands out as a premier institution dedicated to providing top-notch Quranic education. Recognizing the aspirations of parents to impart the best knowledge to their children, our academy focuses on instilling a profound understanding of the Holy Book of Allah SWT. Our commitment is to empower individuals for success in this life and the hereafter.
+          Kamran Institute For Islamic Study stands out as a premier institution dedicated to providing top-notch Quranic education. Recognizing the aspirations of parents to impart the best knowledge to their children, our academy focuses on instilling a profound understanding of the Holy Book of Allah SWT. Our commitment is to empower individuals for success in this life and the hereafter.
             <br />
-            Our Online Academy offers Quranic courses tailored for kids, adults, males, females, and newly reverted Muslims. Specifically designed to create a joyful learning environment, our online Quran courses for children are facilitated by dedicated Arab and Non-Arab Quran teachers. You have the flexibility to interview multiple teachers and select the one that best suits your preferences. Embark on your journey of learning the Quran through personalized, one-on-one classes. In addition to Quranic studies, we provide instruction in Islamic courses, languages, and Noorani Qaida. Join us in the pursuit of comprehensive and enriching online education.
+            Our Islamic Institute offers Quranic courses tailored for kids, adults, males, females, and newly reverted Muslims. Specifically designed to create a joyful learning environment, our online Quran courses for children are facilitated by dedicated Arab and Non-Arab Quran teachers. You have the flexibility to interview multiple teachers and select the one that best suits your preferences. Embark on your journey of learning the Quran through personalized, one-on-one classes. In addition to Quranic studies, we provide instruction in Islamic courses, languages, and Noorani Qaida. Join us in the pursuit of comprehensive and enriching online education.
           </p>
         </div>
         <div className={styles.mainCards}>
@@ -33,12 +33,12 @@ const Home = () => (
 
       {/* Second Section: Courses Overview */}
       <section className={styles.secondSection}>
-        <h1>Bin Saadi Online Quran Academy Courses</h1>
+        <h1>Kamran Institute For Islamic Study Courses</h1>
         <center>
           <Image src="/imges/underline-blue-300x28.png" alt="underline-blue-300x28.png" width={300} height={30} className={`${styles.secondSectionImage}`} />
         </center>
         <p>
-          The Online Academy provides Quranic education tailored to various age groups, encompassing children, males, adults, recent converts, and females. Our diverse range of online courses includes Noorani Qaida designed for children, Quran Reading, Quranic Comprehension, Quran Memorization, Tajweed, Arabic, Urdu, Pashto, Islamic Studies, Quranic Exegesis (Tafsir), and Hadith.
+          The Kamran Institute For Islamic Study provides Quranic education tailored to various age groups, encompassing children, males, adults, recent converts, and females. Our diverse range of online courses includes Noorani Qaida designed for children, Quran Reading, Quranic Comprehension, Quran Memorization, Tajweed, Arabic, Urdu, Pashto, Islamic Studies, Quranic Exegesis (Tafsir), and Hadith.
         </p>
         <h1>Quran Classes for Kids, Adults, & Ladies</h1>
         <p>

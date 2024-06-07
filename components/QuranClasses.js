@@ -116,7 +116,7 @@ const classesData = [
                 </div>
               </div>
             </div>
-            <div className={`col-md-8 col-md-12 col-lg-8 ${styles.columnTwo}`}>
+            <div className={`col-md-9 col-md-12 col-lg-8 ${styles.columnTwo}`}>
               <div className={`card ${styles.card}`}>
                 <div className="card-body">
                   <h5 className="card-title">{item.title}</h5>

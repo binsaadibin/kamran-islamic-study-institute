@@ -1,7 +1,6 @@
 import styles from '@/styles/pages/colorCodedQuran.module.scss'
 import Layout from '../components/headerAndFooter/Layout';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FaDownload } from "react-icons/fa";
 import MainHeadingOfPages from '@/components/MainHeadingOfPages';
 import Image from 'next/image';
 
@@ -56,7 +55,7 @@ const ColorCodedQuran = () => (
               <h5 className="card-title">{chapter.name}</h5>
               <Image src={chapter.image} className={`card-img-top ${styles.image}`} alt={`Juzz ${chapter.id}`} width={300} height={200} layout="responsive" />
                 <a href={chapter.link} className="btn btn-primary">
-                  <FontAwesomeIcon icon={faDownload} className={styles.icon} />
+                <FaDownload className={styles.icon} />
                 <span>  Download</span>
                 </a>
               </div>

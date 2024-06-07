@@ -1,11 +1,30 @@
+@import '../../variables.scss';
+
+
 .card {
     padding: 20px;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: 10px; /* Add margin for spacing between cards */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    
+    @media (min-width: 900px) {
+     height: 360px;
   }
+     @media (min-width: 1440px) {
+     height: 390px;
+  }
+  @media (min-width: 1500px) {
+    height: 370px;
+ }
+}
   
   .rating {
     display: flex;
@@ -16,7 +35,8 @@
   .text {
     font-size: 15px;
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: justify !important;
+    color: $secondary-color !important;
   }
   
   .imageContainer {
@@ -27,9 +47,8 @@
   }
   
   .image {
-    width: 100px !important;
+    width: 70px !important;
     height: 100px !important;
-    border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
   }
@@ -49,7 +68,7 @@
   
   .name {
     font-size: 14px;
-    color: #555;
+    color:$primary-color !important;
   }
   
   @media (min-width: 768px) {
@@ -63,7 +82,10 @@
     }
   
     .info {
-      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content: center;
     }
   
     .title {

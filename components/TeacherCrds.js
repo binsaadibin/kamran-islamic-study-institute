@@ -5,32 +5,32 @@ import Image from 'next/image';
 const TeacherCard = () => {
   const teachersData = [
     {
-      name: 'WAHEEDULLAH',
+      name: 'Waheedullah',
       imageUrl: '/imges/muslim-men.svg',
       altText: 'Teacher Image 1',
     },
     {
-      name: 'JAVED IQBAL',
+      name: 'Kamran Nawaz',
       imageUrl: '/imges/muslim-men.svg',
       altText: 'Teacher Image 2',
     },
     {
-      name: 'AMIR SOHAIL',
-      imageUrl: '/imges/muslim-women.svg',
+      name: 'Maaz Abdullah',
+      imageUrl: '/imges/muslim-men.svg',
       altText: 'Teacher Image 3',
     },
     {
-      name: 'ASMA HASSAN',
+      name: 'Asma Hassan',
+      imageUrl: '/imges/muslim-women.svg',
+      altText: 'Teacher Image 4',
+    },
+    {
+      name: 'Masood ur Rehman',
       imageUrl: '/imges/muslim-men.svg',
       altText: 'Teacher Image 4',
     },
     {
-      name: 'ASMA HASSAN',
-      imageUrl: '/imges/muslim-men.svg',
-      altText: 'Teacher Image 4',
-    },
-    {
-      name: 'ASMA HASSAN',
+      name: 'Muhammad Saleem',
       imageUrl: '/imges/muslim-men.svg',
       altText: 'Teacher Image 4',
     },

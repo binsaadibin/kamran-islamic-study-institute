@@ -43,4 +43,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 30px;
+     h1{
+      color: $white-color !important;
+     }
+     p{
+      color: $white-color;
+      text-align: center;
+     }
   }

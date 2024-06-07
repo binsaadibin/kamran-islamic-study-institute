@@ -1,9 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import PropTypes from 'prop-types';
+import { HiPhoneArrowUpRight } from "react-icons/hi2";
 import styles from '@/styles/components/SideBar.module.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = ({ sidebarContent }) => {
   return (
@@ -28,12 +26,16 @@ const Sidebar = ({ sidebarContent }) => {
           </div>
         ) : (
           <div key={index} className={styles.card2}>
-            <p>{item.text}</p>
-            <div>
-              <FontAwesomeIcon className={styles.icon} icon={faPhoneVolume} />
-              <span>HELPLINE: +923170547465</span>
-            </div>
+          <p>{item.text}</p>
+          <div>
+            <Link href="tel:+1234567890">
+              <span>
+                <HiPhoneArrowUpRight className={styles.icon} />
+              </span>
+            </Link>
+            <span>HELPLINE: +1234567890</span>
           </div>
+        </div>
         )
       ))}
     </div>

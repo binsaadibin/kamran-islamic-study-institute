@@ -234,5 +234,9 @@ justify-content: center;
       background-color: $white-color;
       color: $secondary-color !important;
       box-shadow: 10px 10px 0px $primary-color;
+      span{
+        color: $primary-color;
+      }
     }
+   
   }
