@@ -44,6 +44,12 @@
         margin-bottom: 40px; 
     }
 
+
+    .link{
+        color: $primary-color;
+        text-decoration: none;
+    }
+
     .card_body{
         display: flex;
         justify-content: center;

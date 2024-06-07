@@ -76,6 +76,10 @@
             }
             option{
                 color: $secondary-color;
+                &:hover{
+                    background-color: $secondary-color !important;
+                    color: $white-color;
+                }
             }
             select{
                 padding: 7px 20px;

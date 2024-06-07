@@ -5,72 +5,59 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from '@/styles/components/carouseles/HomeEndCarousel.module.scss';
 import Image from 'next/image';// Adjust the import path as necessary
 
+
+
 const cardContent = [
-    {
-      imgSrc: '/imges/3.jpg',
-      imgAlt: '/imges/3.jpg',
-      title: 'Islamic Supplications',
-      date: '',
-      category: 'Islamic Supplications',
-    },
-    {
-      imgSrc: '/imges/aqeedah-ilyas-bhai.jpg',
-      imgAlt: 'Aqaaid (Beliefs)',
-      title: 'Aqaaid (Beliefs)',
-      date: '',
-      category: 'Aqaaid (Beliefs)',
-    },
-    {
-      imgSrc: '/imges/shutterstock_36770200-400x250.jpg',
-      imgAlt: 'Fiqh (Islamic Jurisprudence)',
-      title: 'Islamic Jurisprudence',
-      date: '',
-      category: 'Fiqh (Islamic Jurisprudence)',
-    },
-    {
-      imgSrc: '/imges/Akhlaq-The-beauty-of-an-Ummati-641x321-641x3211-1.jpg',
-      imgAlt: 'Akhlaaq (Ethics and Morality)',
-      title: ' Ethics and Morality',
-      date: '',
-      category: 'Akhlaaq (Ethics and Morality)',
-    },
-    {
-      imgSrc: '/imges/landscape-scene-from-ancient-baghdad-inspired-by-video-games_23-2151220590.jpg',
-      imgAlt: 'Islamic History',
-      title: 'Islamic History',
-      date: '',
-      category: 'Islamic History',
-    },
-    {
-      imgSrc: '/imges/noorani-qaida-islamic-books.jpg',
-      imgAlt: 'Norani Qaida',
-      title: 'Norani Qaida',
-      date: '',
-      category: 'Norani Qaida',
-    },
-    {
-      imgSrc: '/imges/maxresdefault.jpg',
-      imgAlt: 'Tajweed Ul Quran',
-      title: 'Tajweed Ul Quran',
-      date: '',
-      category: 'Tajweed Ul Quran',
-    },
-    {
-      imgSrc: '/imges/indonesia-bertauhid-ocEpT2tKX5c-unsplash-min-400x250.jpg',
-      imgAlt: 'Quran Reading',
-      title: 'Quran Reading',
-      date: '',
-      category: 'Quran Reading',
-    },
-    {
-      imgSrc: '/imges/tafseer-quran_blue.jpg',
-      imgAlt: 'Tafseer e Quran',
-      title: 'Tafseer e Quran',
-      date: '',
-      category: 'Tafseer e Quran',
-    },
-  ];
-  
+  {
+    image: '/imges/course-6.jpg',
+    title: 'Noorani Qaida',
+  },
+  {
+    image: '/imges/course-5.jpg',
+    title: 'Tajweed ulQuran',
+  },
+  {
+    image: '/imges/course-4.jpg',
+    title: 'Quran Reading',
+  },
+  {
+    image: '/imges/reading.jpg',
+    title: 'Quran Tafseer',
+  },
+  {
+    image: '/imges/course-5 (1).jpg',
+    title: 'Quran Ijaza',
+  },
+  {
+    image: '/imges/course-6 (1).jpg',
+    title: 'Quran Memorization',
+  },
+  {
+    image: '/imges/course-9.jpg',
+    title: 'Learn Arabic',
+  },
+  {
+    image: '/imges/course-10.jpg',
+    title: 'Learn Ten Qirat',
+  },
+  {
+    image: '/imges/course-11.jpg',
+    title: 'Islamic Supplications',
+  },
+  {
+    image: '/imges/course-12.jpg',
+    title: 'Pillars of Islam',
+  },
+  {
+    image: '/imges/course-115.jpg',
+    title: 'Islamic Studies Junior Level',
+  },
+  {
+    image: '/imges/course-116.jpg',
+    title: 'Islamic Studies Senior Level',
+  },
+];
+
 
 
 const HomeEndCarousel = () => {
@@ -117,7 +104,7 @@ const HomeEndCarousel = () => {
             {cardContent.map((card, index) => (
               <div key={index} className={styles.cardContainer}>
                 <div className={`card ${styles.card}`}>
-                  <Image src={card.imgSrc} alt={card.imgAlt} width={50} height={50} layout="responsive"  className="card-img-top" />
+                  <Image src={card.image} alt={card.imgSrc} width={50} height={50} layout="responsive"  className="card-img-top" />
                   <div className="card-body">
                     <h2 className={`card-title ${styles.title}`}>{card.title}</h2>
                     {/* <h5>{card.date}<span>{card.category}</span></h5> */}

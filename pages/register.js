@@ -26,7 +26,7 @@ const Register = () => {
     e.preventDefault();
     setSubmitting(true);
     try {
-      const response = await axios.post('http://localhost:3001/api/register', formData);
+      const response = await axios.post('http://localhost:3002/api/register', formData);
       console.log(response.data);
       setAlertMessage('Form submitted successfully');
       setFormData({
@@ -102,9 +102,18 @@ const Register = () => {
                     <label htmlFor="selectOption" className={`${styles.outsideLabel} ${styles.topLeft}`}>Select Option</label>
                     <select className="form-control" id="selectOption" name="selectOption" value={formData.selectOption} onChange={handleChange}>
                       <option>—Please choose an option—</option>
-                      <option>Option 2</option>
-                      <option>Option 3</option>
-                      <option>Option 4</option>
+                      <option>Noraani Qaida</option>
+                      <option>Tajweed ul Quran</option>
+                      <option>Quran Reading</option>
+                      <option>Learn Tafseer Quran</option>
+                      <option>Quran Memorization</option>
+                      <option>Quran Ijaza</option>
+                      <option>Arabic Language</option>
+                      <option>Learn Ten Qirat</option>
+                      <option>Islamic Supplications</option>
+                      <option>Pillars of Islam</option>
+                      <option>Junior Level Course</option>
+                      <option>Senior Level Course</option>
                     </select>
                   </div>
                   <div className="form-group position-relative">
