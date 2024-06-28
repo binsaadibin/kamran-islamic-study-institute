@@ -28,12 +28,12 @@ const Sidebar = ({ sidebarContent }) => {
           <div key={index} className={styles.card2}>
           <p>{item.text}</p>
           <div>
-            <Link href="tel:+1234567890">
+            <Link href="tel:+923170547465">
               <span>
                 <HiPhoneArrowUpRight className={styles.icon} />
               </span>
             </Link>
-            <span>HELPLINE: +1234567890</span>
+            <span>HELPLINE: +923170547465</span>
           </div>
         </div>
         )
